@@ -5,14 +5,16 @@ font-family: helvetica;
 
 .page {
 display:flex;
+overflow: scroll;
 flex-direction: row;
 }
 
 .inhoud{
   padding:1rem;
+  display: block;
   width:fit-content;
-  height: 500vh;
- display:flex; 
+ position: fixed;
+ top: 10rem;
 }
 
 .c_Hand {
@@ -55,4 +57,5 @@ flex-wrap: wrap;
 display:flex;
 flex-direction: column;
 padding: 2rem;
+padding-left: 200px;
 }
