@@ -1,0 +1,49 @@
+
+body {
+font-family: helvetica;
+}
+
+.page {
+display:flex;
+flex-direction: row;
+}
+
+.inhoud{
+  padding:1rem;
+  width:fit-content;
+  height: 500vh;
+ display:flex; 
+}
+
+
+
+.c_Mos{
+background-color: rgba(20 255 10 / 50%) ;
+display:flex;
+flex-direction: row;
+padding: 1rem;
+max-width:95vw;
+flex-wrap: wrap;
+}
+
+.blogdeel{
+flex: 1;
+  height:fit-content;
+min-width:min(300px, 60vw);
+padding: 1rem;
+}
+
+.c_blog{
+display:flex;
+flex-direction: row;
+padding: 1rem;
+background: pink;
+max-width:95vw;
+flex-wrap: wrap;
+}
+
+.c_main {
+display:flex;
+flex-direction: column;
+padding: 2rem;
+}
