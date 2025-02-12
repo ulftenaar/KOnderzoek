@@ -15,7 +15,16 @@ flex-direction: row;
  display:flex; 
 }
 
+.c_Hand {
+background-color: rgba(20 20 255 / 50%) ;
+display:flex;
+flex-direction: row;
+padding: 1rem;
+max-width:95vw;
+flex-wrap: wrap;
 
+
+}
 
 .c_Mos{
 background-color: rgba(20 255 10 / 50%) ;
