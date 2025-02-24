@@ -56,12 +56,16 @@ flex-wrap: wrap;
 .c_main {
 display:flex;
 flex-direction: column;
-padding: 2rem;
-padding-left: 200px;
+padding: 1rem;
+padding-left: 100px;
 }
 
 .blogimg{
 height: fit-content;
 text-align: center;
 margin-bottom: 3%;
+}
+
+ul{
+padding-inline-start: 0px;
 }
